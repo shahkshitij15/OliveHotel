@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+ .img-wrapper {
+  position: relative;
+  width: 100%;
+	 text-align: center;
+ }
+
+.img-overlay{
+	display: inline-block;
+	position: absolute;
+	margin-top: -250px;
+	text-align: center;
+	margin-left: -450px;
+}
+
+.img-overlay button{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.btn-lg {
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 15px;
+	background-color: black;
+	border-color: black;
+}
+
+.btn-lg :hover{
+	background-color: #ffd13d;
+	
+}

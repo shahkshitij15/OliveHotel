@@ -1,0 +1,496 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OLIVE FOODS || DRINKS</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Anton|Fredoka+One|Niramit|Patua+One" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="loop.js"></script>
+<style>
+	nav .active
+	{
+		border-bottom: 5px solid white;
+	}
+	.navbar-brand
+	{
+		margin-top: -15px;
+	}
+	
+	footer
+	{
+		color: #7D7D7D;
+	}
+	footer .socialm
+	{
+		background-color: black;
+		color: white;
+		padding:20px;
+	}
+	footer	.fa 
+	{
+	padding: 10px;
+  	font-size: 15px;
+    text-align: center;
+  	text-decoration: none;
+  	margin: 5px 5px;
+	}
+
+	footer .fa:hover
+	{
+    opacity: 0.7;
+	text-decoration: none;
+	}
+
+	footer .fa-facebook
+	{
+  	background: #3B5998;
+  	color: white;
+	}
+
+	.fa-twitter
+	{
+  	background: #55ACEE;
+  	color: white;
+	}	
+
+	.fa-google 
+	{
+  	background: #dd4b39;
+  	color: white;
+	}
+
+	.fa-linkedin 
+	{
+  	background: #007bb5;
+  	color: white;
+	}
+
+	.fa-youtube 
+	{
+  	background: #bb0000;
+  	color: white;
+	}
+
+	.fa-instagram 
+	{
+  	background: #125688;
+  	color: white;
+	}
+	footer a{
+		color:grey;
+	}
+	footer a:hover{
+		color:white;
+		text-decoration:none;
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+.shape{	
+	border-style: solid; border-width: 0 100px 50px 0; float:right; height: 0px; width: 0px;
+
+}
+.offer{
+	background:#fff; border:1px solid #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); margin: 15px 0; overflow:hidden;
+}
+.offer-radius{
+	border-radius:7px;
+}
+.offer-danger {	border-color: #d9534f; }
+.offer-danger .shape{
+	border-color: transparent #d9534f transparent transparent;
+	border-color: rgba(255,255,255,0) #d9534f rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-success {	border-color: #5cb85c; }
+.offer-success .shape{
+	border-color: transparent #5cb85c transparent transparent;
+	border-color: rgba(255,255,255,0) #5cb85c rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-default {	border-color: #999999; }
+.offer-default .shape{
+	border-color: transparent #999999 transparent transparent;
+	border-color: rgba(255,255,255,0) #999999 rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-primary {	border-color: #428bca; }
+.offer-primary .shape{
+	border-color: transparent #428bca transparent transparent;
+	border-color: rgba(255,255,255,0) #428bca rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-info {	border-color: #5bc0de; }
+.offer-info .shape{
+	border-color: transparent #5bc0de transparent transparent;
+	border-color: rgba(255,255,255,0) #5bc0de rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-warning {	border-color: #f0ad4e; }
+.offer-warning .shape{
+	border-color: transparent #f0ad4e transparent transparent;
+	border-color: rgba(255,255,255,0) #f0ad4e rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+.shape-text{
+	color:#fff; font-size:12px; font-weight:bold; position:relative; right:-40px; top:2px; white-space: nowrap;
+
+}	
+.offer-content{
+	padding:0 20px 10px;
+}
+
+	.imctd{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(fimages/dinner-food-meal-8313.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+	}	
+	
+	
+	</style>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="color:white; font-family:'Niramit',sans-serif; ">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="main_1.html"><img src="fimages/FINAL_LOGO.png" width="40px" height="49.5px"></a>
+    		</div>
+    	<ul class="nav navbar-nav">
+      		<li><a href="main_1.html">Home</a></li>
+      		<li><a href="order.html">Order</a></li>
+      		<li class="active"><a href="offers.html">Offers</a></li>
+	  		<li><a href="contact_us.html">Contact Us</a></li>
+    	</ul>
+    	<ul class="nav navbar-nav navbar-right">
+      		<li><a href="#" data-toggle="modal" data-target="#signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      		<li><a href="#" data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	  		<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+    	</ul>
+  		</div>
+	</nav>
+	
+	<div class="modal fade" id="login" role="dialog" >
+    
+		<div class="modal-dialog">
+        <div class="modal-content" style="border-radius:5px;">
+        <div class="modal-header text-center" style="padding:35px 50px; background-color:#2D2D2D; color:white;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2><span class="fa fa-user icon"></span> Login</h2>
+        </div>
+        <div class="modal-body" style="padding:40px 50px; margin-top: -2px; background-color:white; color:#000000;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter Username" required>
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="fa fa-key icon"></span> Password</label>
+              <input type="password" class="form-control" id="psw" name="psw" required>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-block btn-success" style="background-color:#ffd13d;border-color: #ffd13d;"> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer" style="background-color:#2D2D2D; border:none;">
+          <button type="submit" class="btn btn-default pull-left" data-dismiss="modal" style="background-color:black;color:white; border-color: black" ><span class="glyphicon glyphicon-remove" ></span> Cancel</button>
+ 
+          <p style="color: white;">Forgot <a href="#" class="mp">Password?</a></p>
+          <p style="color: white;">Not a member? <a href="#" class="mp">Sign Up</a></p>
+        </div>
+      </div>
+      
+    </div>
+	  <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+  </div> 
+
+<hr>
+<br>
+<div class="container imctd" style="border: 5px solid #ffd13d; border-radius: 15px;margin-top: 50px;padding: 10px; height:400px;padding-top: 80px;">
+	 					  
+						
+
+<p id="demo" style="text-align: center;font-size: 100px; color: white;"></p>
+<h3 style="text-align:center;color: white;"><b>Countdown for our Food Festival</b></h3>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Nov 21, 2018 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+	</div>
+    <div class="container">
+		<div class="row">
+			<div class="col-xs-3">
+				<div class="offer offer-default">
+					<div class="shape">
+						<div class="shape-text">
+							CROWN							
+						</div>
+					</div>
+					<div class="offer-content">
+						<h3 class="lead">
+							Kings Combo
+						</h3>
+						<p>
+							1 Appetizer + 1 Main course 
+							<br> + 1 Dessert +1 Drink
+						</p>
+					</div>
+					<hr>
+					<hr>
+					<hr>
+				</div>
+			</div>
+			<div class="col-xs-3">
+				<div class="offer offer-success">
+					<div class="shape">
+						<div class="shape-text">
+							DIAMOND						
+						</div>
+					</div>
+					<div class="offer-content">
+						<h3 class="lead">
+							Queen's Combo
+						</h3>						
+						<p>
+							1 Appetizer + 1 Main course
+							<br>+2 Dessert 
+						</p>
+					</div>
+					<hr>
+					<hr>
+				</div>
+			</div>
+			<div class="col-xs-3">
+				<div class="offer offer-radius offer-primary">
+					<div class="shape">
+						<div class="shape-text">
+							PLAT1						
+						</div>
+					</div>
+					<div class="offer-content">
+						<h3 class="lead">
+							Group Combo 1
+						</h3>						
+						<p>
+							2 Appetizer + 2 Main Course
+							<br>+ 2 Dessert
+						</p>
+					</div>
+					<hr>
+					<hr>
+				</div>
+			</div>
+			<div class="col-xs-3">
+				<div class="offer offer-radius offer-primary">
+					<div class="shape">
+						<div class="shape-text">
+							PLAT2						
+						</div>
+					</div>
+					<div class="offer-content">
+						<h3 class="lead">
+							Group Combo 2
+						</h3>						
+						<p>
+							2 Appetizer + 2 Main Course
+							<br>+ 1 Dessert + 1 Drinks
+						</p>
+					</div>
+					<hr>
+					<hr>
+				</div>
+			</div>
+
+        </div>
+        <div class="row">
+			<div class="col-xs-3">
+			<div class="offer offer-warning">
+					<div class="shape">
+						<div class="shape-text">
+							Silver 1					
+						</div>
+					</div>
+					<div class="offer-content">
+						<h3 class="lead">
+							Meal for 1
+						</h3>						
+						<p>
+							Small portion of 1 Appetizer + 1 Main Course
+							<br>+1 Dessert + 1 Drink
+						</p>
+					</div>
+					<hr>
+					<hr>
+				</div>
+			</div>
+			<div class="col-xs-3">
+				<div class="offer offer-warning">
+					<div class="shape">
+						<div class="shape-text">
+							SILVER 2						
+						</div>
+					</div>
+					<div class="offer-content">
+						<h3 class="lead">
+							Meal for 1
+						</h3>						
+						<p>
+							Small portion of 1 Appetizer + 1 Main Course
+							<br>+1 Dessert + 1 Drink
+						</p>
+					</div>
+					<hr>
+					<hr>
+				</div>
+			</div>
+						<div class="col-xs-3">
+				<div class="offer offer-info">
+					<div class="shape">
+						<div class="shape-text">
+							GOLD					
+						</div>
+					</div>
+					<div class="offer-content">
+						<h3 class="lead">
+							An info offer
+						</h3>						
+						<p>Small portion of 1 Appetizer + 1 Main Course
+							<br>+1 Dessert + 1 Drink
+						</p>
+					</div>
+					<hr>
+					<hr>
+					<hr>
+				</div>
+			</div>
+			<div class="col-xs-3">
+				<div class="offer offer-radius offer-danger">
+					<div class="shape">
+						<div class="shape-text">
+							DAILY						
+						</div>
+					</div>
+					<div class="offer-content">
+						<h3 class="lead">
+							A danger-radius
+						</h3>						
+						<p>
+							Small portion of 1 Appetizer + 1 Main Course
+							<br>+1 Dessert + 1 Drink
+						</p>
+					</div>
+					<hr>
+					<hr>
+				</div>
+			</div>	
+		</div>
+	</div>
+	 <footer>
+  <div class="container-fluid" style="padding-top: 25px; padding-right:0px; padding-left: 0px;  background-color:#181818;">
+    <div class="row" style="background-color:#181818;margin-right:0px; margin-left:0px;">
+      <div class="col-lg-2"></div>
+      
+
+      <div class="col-lg-2">
+        <ul style="list-style: none;">
+        <li ><b>About Us</b></li><br>
+        <li><a href="#">Our History</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Investors</a></li>
+        <li><a href="#">Franchise info</a></li>
+        <li><a href="#">Standards of Buisness Conduct</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2">
+        <ul style="list-style: none;">
+        <li ><b>Careers</b></li><br>
+        <li><a href="#">Education & Oppurtunities</a></li>
+        <li><a href="#">Employee and perks</a></li>
+        <li><a href="#">Working with Us</a></li>
+        <li><a href="#">Apply Now</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2">
+        <ul style="list-style: none;">
+        <li ><b>Services</b></li><br>
+        <li><a href="#">Wi-Fi</a></li>
+        <li><a href="#">Arch Card*</a></li>
+        <li><a href="#">PlayPlaces</a></li>
+        <li><a href="#">Loyalty Card</a></li>
+        </ul>
+      
+      </div>
+      <div class="col-lg-2">
+        <ul style="list-style: none;">
+        <li ><b>Social Responsiblity</b></li><br>
+        <li><a href="#">CSR</a></li>
+        <li><a href="#">Food Donation</a></li>
+        <li><a href="#">Orphanage orders</a></li>
+        </ul>
+      
+      </div>
+      </div>
+      <div class="col-lg-2">
+      </div>
+    </div>
+  
+  </div>
+<div class="container socialm" style="padding: 0px; width: 100%;">
+  <div class="row text-center" style="padding-top: 20px; font-size: 20px; font-family:'bebas-neue'; background-color: black;">
+    
+      <p>Stay Connected</p>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a><br>
+  </div>
+  <div class="row text-center" style="border-top:2px solid #212121; margin-top:8px; color:#565656; padding-bottom: 20px; background-color: black;">
+    <h4>&#169 Olive Hotels & Restaurants</h4>
+    <h5>Designed and developed by Team Invincible</h5>
+  
+  </div>
+</div>
+  
+</footer>
+
+</body>
+</html>

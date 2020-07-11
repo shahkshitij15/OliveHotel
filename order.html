@@ -1,0 +1,485 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OLIVE FOODS||DRINKS</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Anton|Fredoka+One|Niramit|Patua+One" rel="stylesheet">
+<link rel="stylesheet" href="pb.css">
+<link href="css/shop-homepage.css" rel="stylesheet">
+<link href="items.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function() {
+    $('#desserts').click(function(){
+   	$('#img1').attr('src','dessert.jpg');
+	});
+		
+	$('#appetizers').click(function(){
+   	$('#img1').attr('src','Oven-Baked-Tandoori-Paneer-Tikka-4.jpg');
+	});
+		  
+	$('#sm').click(function(){
+   	$('#img1').attr('src','pasta.jpg');
+	});
+	
+		
+		
+	});
+</script>
+<style>
+	.navbar-brand{
+		margin-top: -15px;
+	}
+	  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+	.row{
+		text-align: center;
+	}
+	
+	
+	.items{
+		border-color:#e63900;
+		border-width: thick;
+		border-style: solid;
+		border-radius: 8px;
+		padding-right: -10px;
+		padding-top: 10px;
+		
+	}
+	.card-text{
+		color:white;
+		font-weight: 300;
+	}
+	
+	.card{
+		border:5px solid grey;
+		border-radius:5px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin: 5px;
+	}
+	body{
+		overflow-x: hidden;
+	}
+	.active{
+		border-bottom: 5px solid white;
+	}
+	
+	.img-wrapper .btn-lg:hover{
+	
+	background-color: #ffd13d;
+	border: 0px;
+
+	}
+	.btn-lg :active{
+	
+	background-color: #ffd13d;
+	border: 0px;
+
+	}
+	
+	
+	
+	.tabbable-panel {
+  border:1px solid #eee;
+  padding: 10px;
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border:0px;
+  margin: 0px;
+  background-color: #ffd13d;
+  color: white;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #303030;
+	
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  
+  color: #333333;
+	background-color: #ffd13d;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid  #000000;
+  position: relative;
+  background-color: #ffd13d; !important
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color:black;
+	background-color:#FFAB00;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+	
+	
+
+</style>
+</head>
+
+<body style="background-color:white">
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="color:white; font-family:'Niramit',sans-serif; ">
+  	<div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="main_1.html"><img src="fimages/FINAL_LOGO.png" width="40px" height="49.5px"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="main_1.html">Home</a></li>
+      <li class="active"><a href="order.html">Order</a></li>
+      <li><a href="offers.html">Offers</a></li>
+	  <li><a href="contact_us.html">Contact Us</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#" data-toggle="modal" data-target="#signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#" data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	  <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+    </ul>
+  </div>
+</nav>
+  <div class="modal fade" id="login" role="dialog">
+    <div class="modal-dialog">
+    
+    <div class="modal-content">
+        <div class="modal-header text-center" style="padding:35px 50px; background-color:#e63900; color:black;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2><span class="fa fa-user icon"></span> Login</h2>
+        </div>
+        <div class="modal-body" style="padding:40px 50px; margin-top: -2px; background-color:#262626; color:#e63900;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter Username" required>
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="fa fa-key icon"></span> Password</label>
+              <input type="text" class="form-control" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Enter password" required>
+            </div>
+
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-success btn-block" style="background-color: #e63900; border-color: #AD2B00;"> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer" style="background-color: #e63900; border:none;">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" style="background-color:#262626;" ><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+ 
+          <p style="color: white;">Forgot <a href="#" class="mp">Password?</a></p>
+          <p style="color: white;">Not a member? <a href="#" class="mp">Sign Up</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+		  
+
+		<div class="img-wrapper" style="margin-top:-150px;">
+             <img class="img-responsive" id="img1" src="Oven-Baked-Tandoori-Paneer-Tikka-4.jpg" width="100%">
+             <div class="img-overlay">
+                <button class="btn btn-lg btn-danger" id="appetizers">Appetizers</button>
+				 <button class="btn btn-lg btn-danger" id="sm">Sizzlers & More</button>
+                <button class="btn btn-lg btn-danger" id="desserts">Desserts</button>
+             </div>
+    </div>
+	<div class="container">
+    <div class="row">
+		<div class="col-md-12">
+			
+			
+			<div class="tabbable-panel">
+				<div class="tabbable-line">
+					<ul class="nav nav-tabs ">
+						<li class="active">
+							<a href="#tab_default_1" data-toggle="tab">
+							Appetizers</a>
+						</li>
+						<li>
+							<a href="#tab_default_2" data-toggle="tab">
+							Sizzlers & More</a>
+						</li>
+						<li>
+							<a href="#tab_default_3" data-toggle="tab">
+							Desserts</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab_default_1">
+							<h2>Appetizer</h2><br>
+							<div class="row">
+								<div class="col-sm-1" ></div>
+								<div class="col-sm-3" >
+									<div class="card-deck">
+										<div class="card">
+											<img class="card-img-top" src="food images/Achari-Paneer-Tikka-4.jpg" >
+										
+										<div class="card-body">
+											<h3 align="center" class="card-title">
+											Paneer tikka
+											</h3>
+											<h5>Seasoned with authentic Mughlai spices<br>made from fresh cottage cheese</h5>
+										</div>
+											<div class="card-footer">
+											<button class="btn-sm btn-warning" >Order</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select>
+											</div>
+									</div>
+								</div>
+								
+								
+								</div>
+									<div class="col-sm-3" >
+									<div class="card-deck">
+										<div class="card">
+											<img class="card-img-top" src="food images/Broccoli-Corn-Tikki.jpg">
+										
+										<div class="card-body">
+											<h3 align="center" class="card-title">
+											Corn Pattice
+											</h3>
+											<h5>What locals Love.Popular street food of Mumbai straight <br>into you plate</h5>
+										</div>
+										<div class="card-footer">
+											<button class="btn-sm btn-warning" >Order</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select>
+											</div>
+									</div>
+								</div>
+								
+								
+								</div>
+								<div class="col-sm-3">
+									<div class="card-deck">
+										<div class="card">
+											<img class="card-img-top" src="food images/panee.jpg">
+										
+										<div class="card-body">
+											<h3 align="center" class="card-title">
+											Paneer Chilli Dry
+											</h3>
+											<h5>The popular dish from the Indo-Chinese<br> cuisine<br></h5>
+										</div>
+											<div class="card-footer">
+											<button class="btn-sm btn-warning" >Order</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select>
+											</div>
+									</div>
+								</div>
+								
+								
+								</div>
+							
+							
+							</div>
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+						</div>
+						<div class="tab-pane" id="tab_default_2">
+							<h2>Sizzlers & more</h2><br>
+							<div class="row">
+								<div class="col-sm-1" ></div>
+								<div class="col-sm-3" >
+									<div class="card-deck">
+										<div class="card">
+											<img class="card-img-top" src="food images/Penne-alla-Vodka_exps111856_SD142780D08_14_2bC_RMS-2-696x696.jpg">
+										
+										<div class="card-body">
+											<h4 align="center" class="card-title">
+											Penne Pasta(Red sauce)<br>
+											</h4>
+											<h5>Authentic Italian dish with spices and<br> herbs straight from Italy<br></h5>
+										</div>
+											<div class="card-footer">
+											<button class="btn-sm btn-warning" >Order</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select>
+											</div>
+									</div>
+								</div>
+								
+								
+								</div>
+									<div class="col-sm-3" >
+									<div class="card-deck">
+										<div class="card">
+											<img class="card-img-top" src="food images/c700x420.jpg">
+										
+										<div class="card-body">
+											<h4 align="center" class="card-title">
+											Cheese Pizza
+											</h4>
+											<h5>Seasoned with authentic Italian herbs<br>made from fresh cottage cheese</h5>
+										</div>
+										<div class="card-footer">
+											<button class="btn-sm btn-warning" >Order</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select>
+											</div>
+									</div>
+								</div>
+								
+								
+								</div>
+								<div class="col-sm-3">
+									<div class="card-deck">
+										<div class="card">
+											<img class="card-img-top" src="food images/sizzl.jpg">
+										
+										<div class="card-body">
+											<h4 align="center" class="card-title">
+											Paneer Sizzler
+											</h4>
+											<h5><br>Made from fresh cottage cheese</h5>
+										</div>
+											<div class="card-footer">
+											<button class="btn-sm btn-warning" >Order</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select>
+											</div>
+									</div>
+								</div>
+								
+								
+								</div>
+							
+							
+							</div>
+							
+						</div>
+						<div class="tab-pane" id="tab_default_3">
+							<h2>Desserts</h2><br>
+							<div class="row">
+								<div class="col-sm-1" ></div>
+								<div class="col-sm-3" >
+									<div class="card-deck">
+										<div class="card">
+											<img class="card-img-top" src="food images/sizzlle bo.jpg">
+										
+										<div class="card-body">
+											<h3 align="center" class="card-title">
+											Sizzling Brownie
+											</h3>
+											<h5>Dessert everyone crave for<br></h5>
+										</div>
+											<div class="card-footer">
+											<button class="btn-sm btn-warning" >Order</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select>
+											</div>
+									</div>
+								</div>
+								
+								
+								</div>
+									<div class="col-sm-3" >
+									<div class="card-deck">
+										<div class="card">
+											<img class="card-img-top" src="food images/freakshake-smores.jpg">
+										
+										<div class="card-body">
+											<h3 align="center" class="card-title">
+											Freakshake
+											</h3>
+											<h5>Freakshake to satisfy your sweettooth<br></h5>
+										</div>
+										<div class="card-footer">
+											<button class="btn-sm btn-warning" >Order</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select>
+											</div>
+									</div>
+								</div>
+								
+								
+								</div>
+								<div class="col-sm-3">
+									<div class="card-deck">
+										<div class="card">
+											<img class="card-img-top" src="food images/gulab-jamun-recipe-2-1.jpg">
+										
+										<div class="card-body">
+											<h3 align="center" class="card-title">
+											Gulab Jamun
+											</h3>
+											<h5>The authentic Indian dessert which is apt for every occasion </h5>
+										</div>
+											<div class="card-footer">
+											<button class="btn-sm btn-warning" >Order</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select>
+											</div>
+									</div>
+								</div>
+								
+								
+								</div>
+							
+							
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	
+	
+	
+     
+		
+	
+	
+	
+	</body>
+</html>
